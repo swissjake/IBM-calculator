@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBM CALCULATOR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-blue-700">
+    <div class="w-full  h-screen">
+        <div class="mt-40">
+        <div class="w-2/4 shadow-lg border-white border-solid mx-auto bg-red-300">
+            <h3 class="text-center text-white">IBM Calculator</h3>
+        </div>
+        <div class="w-2/4  mx-auto  shadow-lg  h-60 flex flex-col justify-center items-center">
+            <label class=""><span class="text-gray-200">Weight</span></label>
+            <input type="number" id="weight" class="w-4/5 h-7 p-2" placeholder="Enter your weight here" required/>
+
+            <label class=""><span class="text-gray-200 mt-3">Height</span></label>
+            <input class="w-4/5 h-7 p-2" id="height" type="number" placeholder="Enter your height here" required/>
+            <button onclick="calc()"  class="w-4/5 bg-green-500 mt-4 rounded-sm h-7 hover:bg-emerald-100">Calculate</button>
+        </div>
+        <div class="text-center text-white shadow-lg bg-red-300 w-2/4 mx-auto">Thanks for coming</div>
+    </div>
+
+    <p id="demo" class="text-white transition ease-out animate-bounce duration-300 hidden text-center pt-6 h-20 w-2/4 mt-10 mx-auto bg-orange-300 shadow-lg">here</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
